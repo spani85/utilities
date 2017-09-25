@@ -1,0 +1,2 @@
+// Git commit to the previuos commit without edit the message
+git commit --amend --no-edit
