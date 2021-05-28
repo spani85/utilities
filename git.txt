@@ -1,2 +1,6 @@
 // Git commit to the previuos commit without edit the message
 git commit --amend --no-edit
+
+// Show all files changed between commit (only name and type of change)
+// Place the more recent commit as last
+git diff --name-status <commitA> <commitB>
